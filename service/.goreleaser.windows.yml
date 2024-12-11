@@ -19,7 +19,7 @@ release:
 builds:
   - id: "windows"
     main: "./tools/taucorder/service"
-    binary: "drive"
+    binary: "taucorder"
     goos:
       - windows
     goarch:

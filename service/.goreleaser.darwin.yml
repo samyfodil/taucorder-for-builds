@@ -19,7 +19,7 @@ release:
 builds:
   - id: "darwin"
     main: "./tools/taucorder/service"
-    binary: "drive"
+    binary: "taucorder"
     goos:
       - darwin
     goarch:
